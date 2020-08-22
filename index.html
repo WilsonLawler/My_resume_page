@@ -32,7 +32,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.css" rel="stylesheet" />
-    <link href="css/adjust.css" />
+    <link rel="stylesheet" href="css/lazy.css" />
   </head>
 
   <body id="page-top">
@@ -92,7 +92,7 @@
         <div class="my-auto">
           <h2 class="mb-0">
             黃亮維 <span class="text-primary h2">Wilson<br /></span
-            ><span class="text-secondary h3">網頁工程師</span>
+            ><span class="text-secondary h3">前端工程師</span>
           </h2>
           <div class="subheading mb-4">
             <a href="https://github.com/WilsonLawler" target="_blank"
@@ -142,8 +142,8 @@
               <h3 class="mb-3">西式外送餐點形象網頁</h3>
 
               <img
-                class="img-fluid"
-                src="img/website_thumb/omni_food.jpg"
+                class="img-fluid lazy"
+                data-src="img/website_thumb/omni_food.jpg"
                 alt=""
                 width="512px"
               />
@@ -168,8 +168,8 @@
               <h3 class="mb-3">建築設計形象網頁</h3>
 
               <img
-                class="img-fluid"
-                src="img/website_thumb/architecture_landing.jpg"
+                class="img-fluid lazy"
+                data-src="img/website_thumb/architecture_landing.jpg"
                 alt=""
                 width="512px"
               />
@@ -195,8 +195,8 @@
               <h3 class="mb-3">記憶小卡隨身app</h3>
 
               <img
-                class="img-fluid"
-                src="img/website_thumb/flash_card.jpg"
+                class="img-fluid lazy"
+                data-src="img/website_thumb/flash_card.jpg"
                 alt=""
                 width="512px"
               />
@@ -221,8 +221,8 @@
               <h3 class="mb-3">電商後台商控頁面</h3>
 
               <img
-                class="img-fluid"
-                src="img/website_thumb/backstage.jpg"
+                class="img-fluid lazy"
+                data-src="img/website_thumb/backstage.jpg"
                 alt=""
                 width="512px"
               />
@@ -245,8 +245,8 @@
               <h3 class="mb-3">數位公司首頁</h3>
 
               <img
-                class="img-fluid"
-                src="img/website_thumb/Zenshin - wilsonlawler.github.io.png"
+                class="img-fluid lazy"
+                data-src="img/website_thumb/Zenshin - wilsonlawler.github.io.png"
                 alt=""
                 width="512px"
               />
@@ -269,8 +269,8 @@
               <h3 class="mb-3">全球城市天氣搜尋app</h3>
 
               <img
-                class="img-fluid"
-                src="img/website_thumb/Weather App - wilsonlawler.github.io.png"
+                class="img-fluid lazy"
+                data-src="img/website_thumb/Weather App - wilsonlawler.github.io.png"
                 alt=""
                 width="512px"
               />
@@ -293,8 +293,8 @@
               <h3 class="mb-3">StackOverFlow簡易問題集</h3>
 
               <img
-                class="img-fluid"
-                src="img/website_thumb/Q&A Feed - wilsonlawler.github.io.png"
+                class="img-fluid lazy"
+                data-src="img/website_thumb/Q&A Feed - wilsonlawler.github.io.png"
                 alt=""
                 width="512px"
               />
@@ -319,8 +319,8 @@
               <h3 class="mb-3">簡易youtube影片首頁</h3>
 
               <img
-                class="img-fluid"
-                src="img/website_thumb/YouTube Clone - wilsonlawler.github.io.png"
+                class="img-fluid lazy"
+                data-src="img/website_thumb/YouTube Clone - wilsonlawler.github.io.png"
                 alt=""
                 width="512px"
               />
@@ -459,5 +459,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+
+    <!-- lazy loading -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.2/dist/lazyload.min.js"></script>
+    <script src="./js/lazy.js"></script>
   </body>
 </html>
